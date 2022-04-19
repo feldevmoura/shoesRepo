@@ -119,11 +119,11 @@ select {
 }
 
 .paragrafo1 {
-    width: 87%;
+    width: 86%;
 }
 
 .paragrafo2 {
-    width: 87%;
+    width: 86%;
 }
 
 .paragrafo3 {
@@ -140,20 +140,40 @@ select {
     height: 19%;
 }
 
+input[type="file"] {
+    display: none;
+}
+
+.curriculoBox {
+    display: flex;
+    margin-bottom: 4%;
+}
+
 .curriculo {
-    margin-top: 0%;
+    color: #9B9B9B;
+}
+
+.Upload{
+    margin-left: 4%;
+    background-color: #C4C4C4;
+    width: 26%;
+    height: 15%;
+}
+
+.UploadEnviar {
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .botaoCV {
-    background-color: #C4C4C4;
     color: white;
     border: #C4C4C4;
     width: 22%;
     margin-left: 2%;
     margin-bottom: 5%;
 }
-
-
 
 .buttonSend {
     background-color: var(--color2);
@@ -162,6 +182,7 @@ select {
     width: 100%;
     height: 4vh;  
     transition: 3s;
+    cursor: pointer;
 }
 
 .buttonSend:hover {
