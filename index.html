@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="caixaHeader">
+            <div class="logoHeader">
+                <img src="Images/shoes-logo.svg" alt="">
+            </div>
+                <div class="textosHeader">
+                    <div class="texto1Header"><h4>TODOS OS PRODUTOS</h4></div>
+                    <div class="texto2Header"><h4>COLEÇÕES</h4></div>
+                    <div class="texto3Header"><h4>OUTLET</h4></div>
+                </div>
+        </div>
+    </header>
+    <div class="propaganda">
+        <div class="caixaPropaganda">⠀</div>
+        <div class="textoPropaganda">MÊS DE SETEMBRO - FRETE GRÁTIS PARA TODO O BRASIL!</div>
+    </div>
+        <main>
+            <div class="corpo">
+                <form action="registro.html" class="formulario" method="post">
+                    <h1>Faça parte do nosso time</h1>
+                    <label  for="nome">Nome</label>
+                    <br>
+                    <input class="formula" type="text" id="nome" name="nome"> 
+                    <br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input class="formula" type="email" id="email" name="email">
+                    <br>
+                    <label for="numero">Telefone</label>
+                    <br>
+                    <input class="formula" type="numero" id="numero" name="numero">
+                    <br>
+                    <label for="departamentos">Departamentos</label><br>
+                        <select class="formula" name="departamentos" id="departamentos">
+                            <option selected disabled></option>
+                        </select>
+                        <br>
+
+                        <div class="disponibilidade">
+                            <label for="horario">Disponibilidade</label><br>
+                            <div class="horarios">
+                                <input  type="checkbox" name="horario" id="integral"><label class="disponibilidade" for="integral" value="integral">Integral (8h)</label>
+                                <input  type="checkbox" name="horario" id="meioperiodo"><label class="disponibilidade" for="meioperiodo" value="meioperiodo">Meio período (4h)</label>
+                                <input  type="checkbox" name="horario" id="freelancer"><label class="disponibilidade" for="freelancer" value="freelancer">Freelancer</label>
+                            </div>
+                        </div>
+
+                        <div class="contatos">
+                            <label for="contato">Qual a melhor forma para entrarmos em contato com você?</label><br>
+                                <div class="contatos">
+                                    <input type="radio" id="email" name="contato" value="email"><label class="contatos" for="email">Email</label>
+                                    <input type="radio" id="telefone" name="contato" value="telefone"><label class="contatos" for="telefone">Telefone</label>
+                                    <input type="radio" id="Whatsapp" name="contato" value="Whatsapp"><label class="contatos" for="Whatsapp">Whatsapp</label>
+                                </div>
+
+                        </div>
+                        
+                        <div>
+                            <div class="mensagem">
+                                <label for="mensagem">Mensagem</label>
+                                <br>
+                                <textarea name="mansagem" id="mansagem" cols="64" rows="4"></textarea>
+                                <br><br>
+                            </div>
+                        </div>
+
+                        <div class="curriculo">
+                            <label for="curriculo">Currículo</label>
+                            <button class="botaoCV" type="file">upload</button>
+                        </div>
+
+
+                            <button class="buttonSend" type="submit">
+                                <b class="sendText">enviar</b>
+                            </button>
+                </form> 
+                
+                <div>
+                    <div class="textoCorpo">
+                        <p class="paragrafo1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <br>
+                        <p class="paragrafo2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <br>
+                        <p class="paragrafo3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <div class="boxFooter1">
+                <img src="Images/shoes-logo-footer.svg" alt="logo">
+                <p class="paragrafoFooter1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="boxFooter2">
+                <h3 class="paragrafoFooter2">categorias</h3>
+                    <div class="categorias">
+                        <p class="sandalias">sandálias</p>
+                        <p class="botas">botas</p>
+                        <p class="tenis">tênis</p>
+                        <p class="oxford">oxford</p>
+                        <p class="coturnos">coturnos</p>
+                    </div>
+            </div>
+
+            <div class="boxFooter3">
+                <h3 class="paragrafoFooter3">institucional</h3>
+                    <div class="categorias2">
+                        <p class="sobrenos">sobre nós</p>
+                        <p class="perguntasfrequentes">perguntas frequentes</p>
+                        <p class="politica">política de privacidade</p>
+                        <p class="rastreamento">rastreamento de pedidos</p>
+                        <p class="contato">contato</p>
+                    </div>
+            </div>
+        </footer>
+
+</body>
+</html>
